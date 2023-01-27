@@ -13,3 +13,5 @@ colocar o outDir : "./dist" e rootDir: "./src"
 4 - Instalar o paxote das tipagens do TS 'npm install @types/node'
 
 5 - instalar o  nodemon para rodar o projeto 'npm install --save-dev nodemon' e em seguida o comando 'npm install -D ts-node'
+
+6 - em seguida ir no package.json e colocar abaixo do script de teste o nosso script para rodar o projeto "start-dev":"nodemon src/index.ts"
